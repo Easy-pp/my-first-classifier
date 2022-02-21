@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/knn-classifier"></script>
+</head>
+
+<body>
+    <div id="container">
+        <img class="imgs" crossorigin='anonymous' src="http://127.0.0.1:8080/test/mobile-1.png" alt="mobile-1">
+        <img class="imgs" crossorigin='anonymous' src="http://127.0.0.1:8080/test/mobile-2.png" alt="mobile-2">
+        <img class="imgs" crossorigin='anonymous' src="http://127.0.0.1:8080/test/phone-1.png" alt="phone-1">
+        <img class="imgs" crossorigin='anonymous' src="http://127.0.0.1:8080/test/phone-2.png" alt="phone-2">
+        <img class="imgs" crossorigin='anonymous' src="http://127.0.0.1:8080/test/close-1.png" alt="close-1">
+        <img class="imgs" crossorigin='anonymous' src="http://127.0.0.1:8080/test/close-2.png" alt="close-2">
+        <img class="imgs" crossorigin='anonymous' src="http://127.0.0.1:8080/test/close-3.png" alt="close-3">
+        <img class="imgs" crossorigin='anonymous' src="http://127.0.0.1:8080/test/close-4.png" alt="close-4">
+    </div>
+    <div id="console"></div>
+    <!-- <input type="file" id="file" name="file" accept="image/*" />
+    <button id="predict">预测</button> -->
+    <script type="module" src="./src/index.js"></script>
+</body>
+
+</html>

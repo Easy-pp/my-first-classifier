@@ -1,0 +1,12 @@
+// <iconfont> https://www.iconfont.cn/search/index?searchType=icon&q=mobile&page=1&fromCollection=1&fills=&tag=
+
+// ul.block-icon-list>li@icons {
+//     // svg[p-id=$pid]{$path};
+//     &[class=$class];
+//     .icon-name[title=$title]{$name}
+// }
+
+.count@count {
+    &[class=$class]{$num};
+    &[id=$id]{$num};
+}
